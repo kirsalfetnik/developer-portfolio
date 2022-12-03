@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9ed2727.css",
+    "main.js": "/static/js/main.3dbf8bae.js",
+    "static/media/Greeting_Photo.jpg": "/static/media/Greeting_Photo.3f801a8fe80c55b43cbd.jpg",
+    "static/media/Intro.jpg": "/static/media/Intro.d912da64cc5b49131dd0.jpg",
+    "static/media/Salfetnik_Logo1.png": "/static/media/Salfetnik_Logo1.6570b3a3953e3ac38078.png",
+    "index.html": "/index.html",
+    "main.b9ed2727.css.map": "/static/css/main.b9ed2727.css.map",
+    "main.3dbf8bae.js.map": "/static/js/main.3dbf8bae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9ed2727.css",
+    "static/js/main.3dbf8bae.js"
+  ]
+}
