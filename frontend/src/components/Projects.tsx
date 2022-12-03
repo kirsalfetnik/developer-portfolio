@@ -7,39 +7,21 @@ const Projects = () => {
             My projects:
         </div>
         <div className="projects-list">
-            <div className="projects-list-item">
+            <a href="https://github.com/kirsalfetnik/Chat-socialize" className="projects-list-item hover-grow-shadow">
               Chat & Socialize
-            </div>
-            <div className="projects-list-item">
+            </a>
+            <a href="https://github.com/kirsalfetnik/Diet-Control" className="projects-list-item hover-grow-shadow">
               Diet Control
-            </div>
-            <div className="projects-list-item">
+            </a>
+            <a  href="https://github.com/kirsalfetnik/Finance-Manager" className="projects-list-item hover-grow-shadow">
               Finance Manager
-            </div>
-            <div className="projects-list-item">
+            </a>
+            <a href="https://github.com/kirsalfetnik/rock-paper-scissors" className="projects-list-item hover-grow-shadow">
               Rock-Paper-Scissors
-            </div>
-            <div className="projects-list-item">
+            </a>
+            <a href="https://github.com/kirsalfetnik/landing_page" className="projects-list-item hover-grow-shadow">
               Landing page
-            </div>
-            <div className="projects-list-item">
-              Five
-            </div>
-            <div className="projects-list-item">
-              Six
-            </div>
-            <div className="projects-list-item">
-              Seven
-            </div>
-            <div className="projects-list-item">
-              Eight
-            </div>
-            <div className="projects-list-item">
-              Nine
-            </div>
-            <div className="projects-list-item">
-              Ten
-            </div>
+            </a>
         </div>
     </div>
   )

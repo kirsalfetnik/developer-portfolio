@@ -1,4 +1,5 @@
 /* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
 
 
 /* layout */
@@ -95,12 +96,30 @@ html {
     background-size: cover;
 }
 
-/* Greet component */
-.greet {
-    background-color: var(--cream);
-    font-size: 30px;
-    padding: 40px 5% 40px 5%;
+/* Greeting component */
+.greeting {
+    background-color: var(--pale);
+    font-size: 32px;
     line-height: 1.5;
+    display: flex;
+}
+.greet-text {
+    padding: 40px 5% 0px 5%;
+}
+.circular-photo {
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0px 10% 0px 20px;
+    object-fit: cover;
+    margin-top: -3vh;
+    margin-bottom: -3vh;
+}
+.circular-photo img{
+    width: auto;
+    height: 100%;
+    clip-path: circle();
 }
 
 /* Projects Component */
@@ -108,27 +127,53 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--pale);
+    background-color: var(--cream);
 }
 .projects-header {
     padding: 20px 0px;
     font-size: 50px;
+    font-weight: 700;
 }
 .projects-list {
     display: grid;
     gap: 30px 30px;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
 }
 .projects-list-item {
+    background-color: var(--pale);
     border: 3px solid var(--cream);
     border-radius: 3px;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 500;
     margin-top: 20px;
     padding: 40px 30px;
     text-align: center;
+    text-decoration: none;
+    color: black;
 
 }
 .projects-list-item:hover {
     cursor: pointer;
+}
+
+/* Link with a shadow grow */
+.hover-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.hover-grow-shadow:hover,
+.hover-grow-shadow:focus,
+.hover-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
