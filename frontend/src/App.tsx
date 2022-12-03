@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 
 // import components
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           />
 
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );

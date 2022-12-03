@@ -6,9 +6,8 @@ const Greeting = () => {
     <div className="greeting">
         <div className="greet-text">
             <div>
-            Hello, my name is Kirill Salfetnik. I am a software engineer specializing in creating modern web applications. 
-            </div>
-            <div>
+            Hello, my name is Kirill Salfetnik. I am a software engineer specializing in creating modern web applications.
+            <br></br> 
             I am a bachelor of sociology, now I am studying computer science at college.
             </div>
         </div>

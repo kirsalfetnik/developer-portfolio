@@ -19,7 +19,7 @@ const Projects = () => {
             <a href="https://github.com/kirsalfetnik/rock-paper-scissors" className="projects-list-item hover-grow-shadow">
               Rock-Paper-Scissors
             </a>
-            <a href="https://github.com/kirsalfetnik/landing_page" className="projects-list-item hover-grow-shadow">
+            <a href="https://kirsalfetnik.github.io/landing_page/" className="projects-list-item hover-grow-shadow">
               Landing page
             </a>
         </div>
