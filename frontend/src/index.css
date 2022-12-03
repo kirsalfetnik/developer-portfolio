@@ -12,7 +12,7 @@
 body {
     position: relative;
     font-family: "Spectral";
-    background: #fff;
+    background-color: var(--cream);
     margin: 0;
     min-height: 100vh;
     overflow-x: hidden;
@@ -126,6 +126,9 @@ html {
     width: auto;
     height: 100%;
     clip-path: circle();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 /* Projects Component */
@@ -196,7 +199,7 @@ html {
     bottom: 0;
     left: 50%;
     text-align: center;
-    padding: 12px 0;
+    padding: 7px 0;
     font-size: 20px;
     width: 100%;
     background-color: #1a1b18;
@@ -227,4 +230,50 @@ html {
     font-family: 'Spectral';
     text-align: center;
     margin: 40px auto;
+}
+
+/* Media queries */
+@media screen and (max-width: 1070px) {
+    .navbar .links a {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .projects-list {
+        gap: 10px 15px;
+    }
+    .circular-photo {
+        width: 300px;
+        height: 300px;
+    }
+    .greet-text {
+        padding: 10% 5% 30px 10%;
+    }
+    .navbar .title .logo {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .navbar .links a {
+        margin-right: 7px;
+        font-size: 18px;
+    }
+    .navbar .title .logo {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar .links a {
+        margin-right: 10px;
+    }
+    .projects-list {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 8px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .navbar .title .logo {
+        width: 200px;
+    }
 }
