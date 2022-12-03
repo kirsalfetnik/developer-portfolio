@@ -7,11 +7,15 @@
     --blue: rgb(68, 141, 236);
     --green: rgb(76, 219, 69);
     --pale: #FAF8F5;
+    --cream: #EFE9E5;
 }
 body {
     font-family: "Spectral";
     background: #fff;
     margin: 0;
+}
+html {
+    scroll-behavior: smooth;
 }
 
 /* Navbar */
@@ -78,4 +82,32 @@ body {
 .navbar .links a:active:before {
     left: 0;
     right: 0;
+}
+
+/* Intro photo */
+.parallax-container {
+    background-image: url('./images/Intro.jpg');
+    /* width: 100%; */
+    /* z-index: 0; */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Projects Page */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects-header {
+    padding: 20px 0px;
+    font-size: 50px;
+}
+.projects-list {
+    border-color: #000000;
 }
